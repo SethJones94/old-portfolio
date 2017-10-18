@@ -74,8 +74,9 @@ ul.posts li {
 .landingBlurb {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
-  font-weight: 300;
-  font-size: 60px;
+  font-weight: 400;
+  margin-top: -10%;
+  font-size: 4em;
   color: #FEFDF8;
   text-align: center;
 
@@ -91,10 +92,11 @@ ul.posts li {
   color: #FEFDF8;
   display: inline;
   margin-right: 20px;
-  font-size: 5em;
+  font-size: 8.5em;
 }
 
 .pageDown {
   color: #FEFDF8;
-  font-size: 5em;
+  font-size: 8.5em;
+  margin-top: 10%;
 }
