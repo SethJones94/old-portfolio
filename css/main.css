@@ -9,11 +9,12 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    letter-spacing: 3.5;
+    letter-spacing: 10;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+
 }
 a {
     text-decoration: none;
@@ -23,11 +24,12 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 12em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 100;
+    margin-top: 35%;
     color: #FEFDF8;
-    letter-spacing: 3.5px;
+    letter-spacing: 2px;
 }
 p {
     font-size: 1.5em;
@@ -37,6 +39,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    text-align: center;
 }
 
 ul.posts {
@@ -59,24 +62,39 @@ ul.posts li {
 
 .landing {
   text-align: center;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
+  width: 100vw;
+  height: 100vh;
+
+
+  overflow: scroll;
   background-color: #3D3D81;
 
 }
 
 .landingBlurb {
   font-family: 'Montserrat', sans-serif;
-  letter-spacing:
-  font-size: 2em;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 60px;
   color: #FEFDF8;
   text-align: center;
-  letter-spacing: 3.5px;
+
 }
 
 .Seth {
-  height: 20%;
-  width: 20%;
-  border-radius: 50%;
+  height: 60%;
+  width: 60%;
+  border-radius: 9999px;
+}
+
+.landingIcons {
+  color: #FEFDF8;
+  display: inline;
+  margin-right: 20px;
+  font-size: 5em;
+}
+
+.pageDown {
+  color: #FEFDF8;
+  font-size: 5em;
 }
