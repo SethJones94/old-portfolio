@@ -36,7 +36,7 @@ p {
 
 .landingBlurb {
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: .2rem;
   font-weight: 400;
   margin-top: -10%;
   font-size: 4em;
@@ -55,7 +55,7 @@ p {
   color: #FEFDF8;
   display: inline;
   margin-right: 20px;
-  font-size: 8.5em;
+  font-size: 8.5rem;
 }
 
 .pageDown {
@@ -65,5 +65,12 @@ p {
 }
 
 .skills {
-  font-size:
+font-family: 'Montserrat', sans-serif;
+color:  #FEFDF8;
+font-size: 4rem;
+letter-spacing: .2rem;
+}
+.skillsIcons {
+  font-size: 8.5rem;
+  color: #FEFDF8;
 }
