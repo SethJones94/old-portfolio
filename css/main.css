@@ -1,19 +1,21 @@
 html {
   font-size: 62.5%;
+
 }
 
 body {
-    height: 100%;
-    width: 100%;
-    margin: auto;
+    height: 100vh;
+    width: 100vw;
     background-color: #f1f1f1;
+
+
 }
 
 h1 {
     font-size: 18rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    margin-top: 35%;
+
     color: #FEFDF8;
     letter-spacing: .2rem;
 }
@@ -27,7 +29,7 @@ font-weight: 400;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: .2rem;
   font-weight: 400;
   line-height: 1.5;
@@ -35,39 +37,47 @@ p {
   color: #FEFDF8;
 }
 
-.sectionFontH2{
+.aboutMeTitle{
 font-family: 'Montserrat', sans-serif;
 color:  black;
 font-size: 12rem;
-letter-spacing: .2rem;
-font-weight: 400;
+letter-spacing: .3rem;
+font-weight: 550;
 }
 
-.sectionFontP {
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: .2rem;
-  font-weight: 400;
+.aboutMe {
+  font-family: 'Open-Sans', sans-serif;
+  letter-spacing: .3rem;
+  font-weight: 525;
   margin-left: 5%;
   margin-right: 5%;
   line-height: 1.5;
   font-size: 5rem;
   color: black;
+  text-align: justify;
 }
 .container {
   height: 100vh;
   width: 100vw;
   background-color: #f1f1f1;
-
   }
 
+.Seth {
+  height: 25%;
+  width: 45%;
+  border-radius: 66%;
+  }
 
 
 .landing {
   text-align: center;
   width: 100vw;
   height: 100vh;
-  margin-top: 6%;
-  overflow: scroll;
+  background-size: cover;
+  overflow-x: visible;
+  position: top;
+  background-position-y: top;
+
   background-color: #3D3D81;
 
 }
@@ -91,7 +101,7 @@ font-weight: 400;
 }
 
 .skillsIcons {
-  color: black;
+  color: #3D3D81;
   display: inline;
   line-height: 2.5;
   letter-spacing: 3rem;
