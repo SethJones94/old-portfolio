@@ -1,34 +1,72 @@
 html {
-  font-size: 62.5;
+  font-size: 62.5%;
 }
 
 body {
     height: 100%;
     width: 100%;
     margin: auto;
+    background-color: #f1f1f1;
 }
 
 h1 {
-    font-size: 12rem;
+    font-size: 18rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     margin-top: 35%;
     color: #FEFDF8;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
 }
+
+h2 {
+font-family: 'Montserrat', sans-serif;
+color:  #FEFDF8;
+font-size: 12rem;
+letter-spacing: .2rem;
+font-weight: 400;
+}
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 6rem;
+  color: #FEFDF8;
 }
+
+.sectionFontH2{
+font-family: 'Montserrat', sans-serif;
+color:  black;
+font-size: 12rem;
+letter-spacing: .2rem;
+font-weight: 400;
+}
+
+.sectionFontP {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2rem;
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
+  font-size: 5rem;
+  color: black;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f1f1f1;
+
+  }
+
 
 
 .landing {
   text-align: center;
   width: 100vw;
   height: 100vh;
-
-
+  margin-top: 6%;
   overflow: scroll;
   background-color: #3D3D81;
 
@@ -39,38 +77,29 @@ p {
   letter-spacing: .2rem;
   font-weight: 400;
   margin-top: -10%;
-  font-size: 4em;
+  font-size: 7em;
   color: #FEFDF8;
   text-align: center;
 
 }
 
-.Seth {
-  height: 60%;
-  width: 60%;
-  border-radius: 9999px;
-}
-
-.landingIcons {
+.icons{
   color: #FEFDF8;
   display: inline;
-  margin-right: 20px;
-  font-size: 8.5rem;
+  letter-spacing: 3rem;
+  font-size: 12rem;
+}
+
+.skillsIcons {
+  color: black;
+  display: inline;
+  line-height: 2.5;
+  letter-spacing: 3rem;
+  font-size: 20rem;
 }
 
 .pageDown {
   color: #FEFDF8;
-  font-size: 8.5em;
+  font-size: 13em;
   margin-top: 10%;
-}
-
-.skills {
-font-family: 'Montserrat', sans-serif;
-color:  #FEFDF8;
-font-size: 4rem;
-letter-spacing: .2rem;
-}
-.skillsIcons {
-  font-size: 8.5rem;
-  color: #FEFDF8;
 }
