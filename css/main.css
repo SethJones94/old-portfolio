@@ -50,6 +50,15 @@ letter-spacing: .3rem;
 font-weight: 550;
 }
 
+.blackH2 {
+  color: #464646;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 12rem;
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+
 .aboutMe {
   font-family: 'Open-Sans', sans-serif;
   letter-spacing: .3rem;
@@ -110,8 +119,8 @@ font-weight: 550;
 
 .skillsIcons {
   color: #3D3D81;
-
-  display: inline;
+  text-align: center;
+  
   line-height: 2.5;
   letter-spacing: 3rem;
   font-size: 20rem;
