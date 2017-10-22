@@ -36,7 +36,6 @@ h2 {
   font-weight: 400;
 }
 
-}
 p {
   font-family: 'Playfair Display', serif;
   letter-spacing: .2rem;
@@ -45,6 +44,15 @@ p {
   font-size: 6rem;
 
   color: #FEFDF8;
+}
+
+footer {
+  letter-spacing: 4rem;
+  font-size: 10rem;
+  text-align: center;
+  color: #FE5F55;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /*wraps the entire project to give a height and width of 100vh/vw respectively */
@@ -91,7 +99,8 @@ p {
 
 /* wraps the about, skills, and projects sections */
 
-.wrapper2 {
+.wrapper {
+
 background-color: #f1f1f0;
 position: relative;
 padding-top: 5%;
@@ -171,11 +180,13 @@ color: #495867;
 }
 
 .icons{
-
   letter-spacing: 4rem;
   font-size: 14rem;
+  text-align: center;
   margin-top: 10%;
   color: #FE5F55;
+}
 
-
+.projectContainer {
+  padding-bottom: 10%;
 }
