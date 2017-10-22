@@ -92,14 +92,14 @@ p {
 /* wraps the about, skills, and projects sections */
 
 .wrapper2 {
-background-color: #FE5F55;
+background-color: #f1f1f0;
 position: relative;
 padding-top: 5%;
 }
 
 /* about section */
 .about {
-  background-color: #495867;
+  background-color: #ffffff;
   margin-top: 10%;
   margin-left: 6.5%;
   margin-right: 6.5%;
@@ -109,6 +109,7 @@ padding-top: 5%;
 
 .about-h2 {
 margin-top: 10%;
+color: #495867;
 }
 
 .aboutMe {
@@ -118,15 +119,15 @@ margin-top: 10%;
   margin-left: 5%;
   margin-right: 5%;
   line-height: 2;
-  font-size: 1.25rem;
-  color: #FEFDF8;
+  font-size: 1.3rem;
+  color: #495867;
   text-align: justify;
 
   padding-bottom: 5%;
 }
 
 .blackH2 {
-  color: #FEFDF8;
+  color: #495867;
   margin-top: 10%;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
@@ -153,8 +154,8 @@ margin-top: 10%;
 /* skills section */
 
 .skills {
-  color: #BDD5EA;
-  background-color: #495867;
+  color: #FE5F55;
+  background-color: #ffffff;
 
   margin-top: 10%;
   margin-left: 5%;
