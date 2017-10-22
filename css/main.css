@@ -163,7 +163,7 @@ color: #495867;
 /* skills section */
 
 .skills {
-  color: #FE5F55;
+  color: #3e85c8;
   background-color: #ffffff;
 
   margin-top: 10%;
@@ -185,6 +185,33 @@ color: #495867;
   text-align: center;
   margin-top: 10%;
   color: #FE5F55;
+}
+
+.myButton {
+
+
+background-color:#FE5F55;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;
+border:1px solid #FEFDF8;
+display:inline-block;
+cursor:pointer;
+color:#FEFDF8;
+letter-spacing: .3rem;
+font-family: 'Josefin Sans', sans-serif;
+font-size:4em;
+padding:2.5% 2.5%;
+margin-bottom: 5%;
+text-decoration:none;
+
+}
+.myButton:hover {
+background-color:#FE5F55
+}
+.myButton:active {
+position:relative;
+top:1px;
 }
 
 .projectContainer {
