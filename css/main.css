@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
-
+  width: 100vw;
+  height: 100vh;
 }
 
 * {
@@ -9,140 +10,171 @@ html {
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
-    background-color: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+  background-color: #495867;
 
 
 }
 
 h1 {
-    font-size: 18rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+  font-size: 21rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  color: #FEFDF8;
 
-    color: #FEFDF8;
-    letter-spacing: .2rem;
+  letter-spacing: .2rem;
 }
 
 h2 {
-font-family: 'Montserrat', sans-serif;
-color:  #FEFDF8;
-font-size: 12rem;
-letter-spacing: .2rem;
-font-weight: 400;
+  color: #FEFDF8;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  background-color: ;
+  font-size: 13rem;
+  letter-spacing: .2rem;
+  font-weight: 400;
 }
 
+}
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', serif;
   letter-spacing: .2rem;
   font-weight: 400;
   line-height: 1.5;
   font-size: 6rem;
+
   color: #FEFDF8;
 }
 
-.aboutMeTitle{
-font-family: 'Montserrat', sans-serif;
-color:  #464646;
-font-size: 12rem;
-letter-spacing: .3rem;
-font-weight: 550;
-}
-
-.blackH2 {
-  color: #464646;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 12rem;
-  letter-spacing: .2rem;
-  font-weight: 400;
-}
-
-.aboutMe {
-  font-family: 'Open-Sans', sans-serif;
-  letter-spacing: .3rem;
-  font-weight: 525;
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: 1.5;
-  font-size: 5rem;
-  color: #464646;
-  text-align: center;
-}
-.container {
-  height: 100vh;
-  width: 100vw;
-  background-color: #f3f3f3;
-  }
-
-.Seth {
-  height: 25%;
-  width: 45%;
-  border-radius: 66%;
-  display: block;
-    margin: 0 auto;
-  }
+/*wraps the entire project to give a height and width of 100vh/vw respectively */
 
 
-#landing {
+
+/* landing */
+
+.landing {
   text-align: center;
   width: 100vw;
   height: 100vh;
   background-size: cover;
   overflow-x: visible;
-  position: top;
+  position: relative;
   background-position-y: top;
-  background-color: #3D3D81;
+  background-color: #495867;
+
 
 }
 
-.landingTitle {
-
+.sethTitle {
+  margin-top: 40%;
+  padding-bottom: 5%;
 }
+
 
 .landingBlurb {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   letter-spacing: .2rem;
   font-weight: 400;
-  margin-top: 30%;
-  font-size: 7em;
-  color: #FEFDF8;
+  margin-top: 5%;
+  font-size: 8.5em;
+  color: #BDD5EA;
   text-align: center;
 
+}
+
+.pageDown {
+  color: #FE5F55;
+  font-size: 14em;
+  margin-top: 10%;
+}
+
+/* wraps the about, skills, and projects sections */
+
+.wrapper2 {
+background-color: #FE5F55;
+position: relative;
+padding-top: 5%;
+}
+
+/* about section */
+.about {
+  background-color: #495867;
+  margin-top: 10%;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  text-align: center;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.about-h2 {
+margin-top: 10%;
+}
+
+.aboutMe {
+  font-family: 'Playfair Display', serif;
+
+  font-weight: 400;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 2;
+  font-size: 1.25rem;
+  color: #FEFDF8;
+  text-align: justify;
+
+  padding-bottom: 5%;
+}
+
+.blackH2 {
+  color: #FEFDF8;
+  margin-top: 10%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  background-color: ;
+  font-size: 13rem;
+  letter-spacing: .2rem;
+  font-weight: 400;
+  padding-top: 5%;
+
+}
+
+/* picture of me */
+
+.Seth {
+  height: 80%;
+  width: 95%;
+  padding-top: 2.5%;
+  padding-bottom: 10%;
+
+  display: block;
+  margin: 0 auto;
+  }
+
+/* skills section */
+
+.skills {
+  color: #BDD5EA;
+  background-color: #495867;
+
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  letter-spacing: 3rem;
+  font-size: 18rem;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.skillsIcons {
+  line-height:2;
 }
 
 .icons{
 
-  display: inline;
-  letter-spacing: 3rem;
-  font-size: 12rem;
-  color: black;
-  height: 100vh;
-}
-
-.skillsIcons {
-  color: #3D3D81;
-  background-color: #f4f4f4;
-  border: 1px solid #D8D8D8;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  line-height: 2.5;
-  letter-spacing: 3rem;
-  font-size: 18rem;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-}
-
-.skillsIcons:hover {
-  transition-property: all;
-  transition-property: transform;
-  transition-duration: all 3s;
-    transition: all 3s 1s;
-}
-
-.pageDown {
-  color: #FEFDF8;
-  font-size: 12em;
+  letter-spacing: 4rem;
+  font-size: 14rem;
   margin-top: 10%;
+  color: #FE5F55;
+
+
 }
