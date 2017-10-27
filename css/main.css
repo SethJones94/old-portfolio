@@ -13,16 +13,13 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #495867;
-
-
 }
 
 h1 {
-  font-size: 21rem;
+  font-size: 6.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
   color: #FEFDF8;
-
   letter-spacing: .2rem;
 }
 
@@ -31,19 +28,23 @@ h2 {
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
   background-color: ;
-  font-size: 13rem;
+  font-size: 5rem;
   letter-spacing: .2rem;
   font-weight: 400;
 }
 
 p {
-  font-family: 'Playfair Display', serif;
-  letter-spacing: .2rem;
-  font-weight: 400;
-  line-height: 1.5;
-  font-size: 6rem;
+  font-family: 'Roboto', sans-serif;
 
-  color: #FEFDF8;
+  margin-top: -4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  color: #495867;
+  text-align: left;
+
+  padding-bottom: 2.5%;
 }
 
 footer {
@@ -53,6 +54,10 @@ footer {
   color: #FE5F55;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+
+.shadow {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 }
 
 /*wraps the entire project to give a height and width of 100vh/vw respectively */
@@ -66,38 +71,45 @@ footer {
   width: 100vw;
   height: 100vh;
   background-size: cover;
-  overflow-x: visible;
+  overflow-x: hidden;
   position: relative;
   background-position-y: top;
   background-color: #495867;
-
+  margin-top: 5%;
 
 }
 
-.sethTitle {
+.landing_title {
   margin-top: 40%;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 
-.landingBlurb {
+.landing_jobtitle {
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: .2rem;
   font-weight: 400;
-  margin-top: 5%;
-  font-size: 8.5em;
+  margin-top: 5.5%;
+  font-size: 2.5rem;
   color: #BDD5EA;
   text-align: center;
 
 }
 
-.pageDown {
+.landing_icons{
+  letter-spacing: 1.25rem;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 5.5%;
   color: #FE5F55;
-  font-size: 14em;
-  margin-top: 10%;
 }
 
-/* wraps the about, skills, and projects sections */
+.landing_pagedown {
+  color: #FE5F55;
+  font-size: 4rem;
+  margin-top: 15%;
+}
+/* wraps the about, skills, and projects sections for consistent styling */
 
 .wrapper {
 
@@ -107,7 +119,7 @@ padding-top: 5%;
 }
 
 /* about section */
-.about {
+.card {
   background-color: #ffffff;
   margin-top: 10%;
   margin-left: 6.5%;
@@ -116,46 +128,19 @@ padding-top: 5%;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
-.about-h2 {
+/* about section */
+
+.section_title {
 margin-top: 10%;
 color: #495867;
 }
-
-.aboutMe {
-  font-family: 'Playfair Display', serif;
-
-  font-weight: 400;
-  margin-left: 5%;
-  margin-right: 5%;
-  line-height: 2;
-  font-size: 1.3rem;
-  color: #495867;
-  text-align: justify;
-
-  padding-bottom: 5%;
-}
-
-.blackH2 {
-  color: #495867;
-  margin-top: 10%;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  background-color: ;
-  font-size: 13rem;
-  letter-spacing: .2rem;
-  font-weight: 400;
-  padding-top: 5%;
-
-}
-
 /* picture of me */
 
-.Seth {
+.images {
   height: 80%;
   width: 95%;
   padding-top: 2.5%;
   padding-bottom: 10%;
-
   display: block;
   margin: 0 auto;
   }
@@ -171,38 +156,41 @@ color: #495867;
   text-align: center;
   letter-spacing: 3rem;
   font-size: 18rem;
+  /* make sure you lower these box shadows. */
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.skillsIcons {
-  line-height:2;
+.skills_icons {
+  letter-spacing: 1rem;
+  font-size: 6rem;
+  margin-top: 10%;
+  color: #FE5F55;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 
 .icons{
-  letter-spacing: 4rem;
-  font-size: 14rem;
+  letter-spacing: 2rem;
+  font-size: 4rem;
   text-align: center;
   margin-top: 10%;
   color: #FE5F55;
 }
 
 .myButton {
-
-
-background-color:#FE5F55;
--moz-border-radius:4px;
--webkit-border-radius:4px;
-border-radius:4px;
-border:1px solid #FEFDF8;
-display:inline-block;
-cursor:pointer;
-color:#FEFDF8;
-letter-spacing: .3rem;
-font-family: 'Josefin Sans', sans-serif;
-font-size:4em;
-padding:2.5% 2.5%;
-margin-bottom: 5%;
-text-decoration:none;
+  background-color:#FE5F55;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #FEFDF8;
+  display:inline-block;
+  cursor:pointer;
+  color:#FEFDF8;
+  letter-spacing: .3rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:4em;
+  padding:2.5% 2.5%;
+  margin-bottom: 5%;
+  text-decoration:none;
 
 }
 .myButton:hover {
