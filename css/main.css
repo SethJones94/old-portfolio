@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 7rem;
+  font-size: 6.5rem;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
   color: #FEFDF8;
@@ -73,7 +73,6 @@ footer {
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: .2rem;
   font-weight: 400;
-  margin-top: 5.5%;
   font-size: 2.5rem;
   color: #BDD5EA;
   text-align: center;
@@ -81,16 +80,16 @@ footer {
 
 .landing_icons{
   letter-spacing: 1.25rem;
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: center;
-  margin-top: 5.5%;
+  margin-top: 2.5%;
   color: #FE5F55;
 }
 
 .landing_pagedown {
   color: #FE5F55;
-  font-size: 4rem;
-  margin-top: 15%;
+  font-size: 5rem;
+  margin-top: 10%;
 }
 
 /* general purpose section */
