@@ -14,6 +14,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #495867;
+  overflow-x: hidden;
 }
 
 h1 {
