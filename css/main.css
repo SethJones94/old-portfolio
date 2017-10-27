@@ -1,3 +1,4 @@
+/*global section*/
 html {
   font-size: 62.5%;
   width: 100vw;
@@ -21,51 +22,42 @@ h1 {
   font-weight: 100;
   color: #FEFDF8;
   letter-spacing: .2rem;
+  margin-top: 40%;
+  padding-bottom: 1%;
 }
 
 h2 {
-  color: #FEFDF8;
+  color: #495867;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  background-color: ;
   font-size: 5rem;
   letter-spacing: .2rem;
   font-weight: 400;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
-
-  margin-top: -4%;
+  font-family: 'Lato', sans-serif;
+  margin-top: -5%;
   margin-left: 5%;
   margin-right: 5%;
   line-height: 1.5;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #495867;
   text-align: left;
-
-  padding-bottom: 2.5%;
+  padding-bottom: 5%;
+  font-weight: 500;
 }
 
 footer {
-  letter-spacing: 4rem;
-  font-size: 10rem;
+  letter-spacing: 1.25rem;
+  font-size: 4rem;
   text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
   color: #FE5F55;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 
-.shadow {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
-}
-
-/*wraps the entire project to give a height and width of 100vh/vw respectively */
-
-
-
-/* landing */
-
+/* landing section */
 .landing {
   text-align: center;
   width: 100vw;
@@ -75,15 +67,7 @@ footer {
   position: relative;
   background-position-y: top;
   background-color: #495867;
-  margin-top: 5%;
-
 }
-
-.landing_title {
-  margin-top: 40%;
-  padding-bottom: 1%;
-}
-
 
 .landing_jobtitle {
   font-family: 'Josefin Sans', sans-serif;
@@ -93,7 +77,6 @@ footer {
   font-size: 2.5rem;
   color: #BDD5EA;
   text-align: center;
-
 }
 
 .landing_icons{
@@ -109,32 +92,29 @@ footer {
   font-size: 4rem;
   margin-top: 15%;
 }
-/* wraps the about, skills, and projects sections for consistent styling */
 
+/* general purpose section */
 .wrapper {
-
-background-color: #f1f1f0;
-position: relative;
-padding-top: 5%;
+  background-color: #f1f1f0;
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-/* about section */
 .card {
   background-color: #ffffff;
   margin-top: 10%;
   margin-left: 6.5%;
   margin-right: 6.5%;
   text-align: center;
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-
-/* about section */
 
 .section_title {
-margin-top: 10%;
-color: #495867;
+  margin-top: 15%;
+  color: #495867;
+  font-size: 4rem;
 }
-/* picture of me */
 
 .images {
   height: 80%;
@@ -145,27 +125,48 @@ color: #495867;
   margin: 0 auto;
   }
 
+
+  .myButton {
+    background-color:#FE5F55;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid #FEFDF8;
+    display:inline-block;
+    cursor:pointer;
+    color:#FEFDF8;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    font-family: 'Lato', sans-serif;
+    font-size:1.25em;
+    padding:2.5% 2.5%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    text-decoration:none;
+
+  }
+  .myButton:hover {
+  background-color:#FE5F55
+  }
+  .myButton:active {
+  position:relative;
+  top:1px;
+  }
+
+
+/* about section */
+  .about {
+    margin-top: -5%;
+  }
+
 /* skills section */
-
-.skills {
-  color: #FE5F55;
-  background-color: #ffffff;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: center;
-  letter-spacing: 3rem;
-  font-size: 18rem;
-  /* make sure you lower these box shadows. */
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
 .skills_icons {
   letter-spacing: 1rem;
   font-size: 6rem;
+  line-height: 2;
   margin-top: 10%;
   color: #FE5F55;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1.5px rgba(0,0,0,0.2);
 }
 
 .icons{
@@ -176,31 +177,28 @@ color: #495867;
   color: #FE5F55;
 }
 
-.myButton {
-  background-color:#FE5F55;
-  -moz-border-radius:4px;
-  -webkit-border-radius:4px;
-  border-radius:4px;
-  border:1px solid #FEFDF8;
-  display:inline-block;
-  cursor:pointer;
-  color:#FEFDF8;
-  letter-spacing: .3rem;
+/* project section */
+.project_title {
+  color: #495867;
   font-family: 'Josefin Sans', sans-serif;
-  font-size:4em;
-  padding:2.5% 2.5%;
-  margin-bottom: 5%;
-  text-decoration:none;
+  text-align: center;
+  padding-top: 5%;
+  font-size: 3.5rem;
+  letter-spacing: .2rem;
+  font-weight: 400;
+}
+.project_description {
+  font-family: 'Lato', sans-serif;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: #495867;
+  text-align: left;
+  padding-bottom: 5%;
+  font-weight: 500;
+}
 
-}
-.myButton:hover {
-background-color:#FE5F55
-}
-.myButton:active {
-position:relative;
-top:1px;
-}
 
-.projectContainer {
-  padding-bottom: 10%;
-}
+/* ( ͡° ͜ʖ ͡°) "I once was lost, but now there's lenny" */
