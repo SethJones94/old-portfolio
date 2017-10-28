@@ -1,61 +1,65 @@
 /*global section*/
+
+/* note to self: go the fuck to sleep and wake up with fresh eyes, you're working yourslef into a rut */
 html {
-  font-size: 62.5%;
-  width: 100vw;
-  height: 100vh;
+  font-size: 100%;
 }
 
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   height: 100vh;
   width: 100vw;
-  background-color: #495867;
   overflow-x: hidden;
+  background-color: #495867;
 }
 
 h1 {
-  font-size: 6.5rem;
+  font-size: 4em;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
   color: #FEFDF8;
-  letter-spacing: .2rem;
-  margin-top: 40%;
-  padding-bottom: 1%;
+  letter-spacing: .05em;
+  margin-top: 1.75em;
 }
 
 h2 {
   color: #495867;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
-  font-size: 5rem;
-  letter-spacing: .2rem;
+  font-size: 5em;
+  letter-spacing: .05em;
   font-weight: 400;
 }
 
+
+
 p {
   font-family: 'Lato', sans-serif;
-  margin-top: -5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: .9em;
+  margin-right: .9em;
+
+  margin-bottom: .9em;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: .9em;
+  letter-spacing: .05em;
   color: #495867;
   text-align: left;
-  padding-bottom: 5%;
+  padding-bottom: .9em;
   font-weight: 500;
 }
 
 footer {
-  letter-spacing: 1.25rem;
-  font-size: 4rem;
+  letter-spacing: 0.5em;
+  font-size: 2em;
   text-align: center;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
   color: #FE5F55;
+  background-color: #495867;
 }
 
 /* landing section */
@@ -72,84 +76,88 @@ footer {
 
 .landing_jobtitle {
   font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: .2rem;
+  letter-spacing: .05em;
   font-weight: 400;
-  font-size: 2.5rem;
-  margin-top: 3%;
+  font-size: 1.5em;
+  margin-top: .2em;
   color: #BDD5EA;
   text-align: center;
 }
 
 .landing_icons{
-  letter-spacing: 1.25rem;
-  font-size: 4rem;
+  letter-spacing: 0.4em;
+  font-size: 2.25em;
   text-align: center;
-  margin-top: 3%;
+  margin-top: .2em;
   color: #FE5F55;
 }
 
 .landing_pagedown {
   color: #FE5F55;
-  font-size: 4rem;
-  margin-top: 10%;
+  font-size: 2.5em;
+  margin-top: 1em;
+  text-align: center;
 }
 
 /* general purpose section */
 .wrapper {
   background-color: #f1f1f0;
   position: relative;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  overflow-x: hidden;
 }
 
 .card {
   background-color: #ffffff;
-  margin-top: 10%;
-  margin-left: 6.5%;
-  margin-right: 6.5%;
+  margin-top: 1.6em;
+
+  margin-bottom: .5em;
+  margin-left: 1em;
+  margin-right: 1em;
   text-align: center;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .section_title {
-  margin-top: 15%;
+  margin-top: 1em;
   color: #495867;
-  font-size: 4rem;
+  font-size: 2.5em;
+
 }
 
 .images {
-  height: 80%;
-  width: 95%;
-  padding-top: 2.5%;
-  padding-bottom: 10%;
+  height: 60%;
+  width: 90%;
+  padding-top: 0.7em;
+  padding-bottom: 0.5em;
   display: block;
   margin: 0 auto;
   }
 
-
-  .myButton {
-    background-color:#FE5F55;
-    -moz-border-radius:4px;
-    -webkit-border-radius:4px;
-    border-radius:4px;
-    border:1px solid #FEFDF8;
-    display:inline-block;
-    cursor:pointer;
-    color:#FEFDF8;
-    font-weight: 700;
-    letter-spacing: .2rem;
-    font-family: 'Lato', sans-serif;
-    font-size:1.25em;
-    padding:2.5% 2.5%;
-    margin-top: -5%;
-    margin-bottom: 5%;
-    text-decoration:none;
-
+.myButton {
+  background-color:#FE5F55;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  border:1px solid #FEFDF8;
+  display:inline-block;
+  cursor:pointer;
+  color:#FEFDF8;
+  font-weight: 700;
+  letter-spacing: .15em;
+  font-family: 'Lato', sans-serif;
+  font-size:.75em;
+  padding:2.5% 2.5%;
+  margin-bottom: 0.5em;
+  text-decoration:none;
   }
-  .myButton:hover {
-  background-color:#FE5F55
+
+.myButton:hover {
+  background-color:#FE5F55;
   }
-  .myButton:active {
+
+.myButton:active {
   position:relative;
   top:1px;
   }
@@ -157,49 +165,69 @@ footer {
 
 /* about section */
   .about {
-    margin-top: -5%;
+  margin-top: -0.5em;
   }
 
 /* skills section */
 .skills_icons {
-  letter-spacing: 1rem;
-  font-size: 6rem;
+  letter-spacing: .4em;
+  margin-left: 0.4em;
+  font-size: 3em;
   line-height: 2;
-  margin-top: 10%;
+
   color: #FE5F55;
   text-shadow: 1px 1px 1.5px rgba(0,0,0,0.2);
-}
-
-.icons{
-  letter-spacing: 2rem;
-  font-size: 4rem;
-  text-align: center;
-  margin-top: 10%;
-  color: #FE5F55;
 }
 
 /* project section */
 .project_title {
   color: #495867;
   font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  padding-top: 5%;
-  font-size: 3.5rem;
-  letter-spacing: .2rem;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding-top: 0.7em;
+  font-size: 1.75em;
+
   font-weight: 400;
 }
+
 .project_description {
   font-family: 'Lato', sans-serif;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-top: 0.5em;
+  letter-spacing: .05em;
+  margin-right: 0.5em;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: .9em;
   color: #495867;
   text-align: left;
-  padding-bottom: 5%;
+
   font-weight: 500;
 }
+
+.projects img {
+  margin-top: -1.3em;
+}
+
+.projects h3 {
+  margin-top: 0.5em;
+  color: #495867;
+  line-height: 1.5;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+  margin-left: .9em;
+
+
+  font-size: 1em;
+
+  font-weight: 400;
+}
+
+/* media queries section */
+@media (max-width: 12450px) {
+
+ }
+
 
 
 /* ( ͡° ͜ʖ ͡°) "I once was lost, but now there's lenny" */
