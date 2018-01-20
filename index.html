@@ -4,6 +4,8 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<title>Seth Jones, Front-End Web Developer</title>
 			<!-- link to main stylesheet -->
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+			<script src="index.js"></script>
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -13,53 +15,56 @@
 			<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 		</head>
 
-		<section class="landing">
+		<div class="landing">
 			<h1>Seth Jones</h1>
 			<h2 class="landing_jobtitle">Front-End Developer</h2>
 			<div class="landing_icons"> <!-- change this later. you have other elements with icon on them -->
-				<i class="fa fa-github" aria-hidden="true"></i>
+				 <a href="https://sethjones94.github.io/"><i class="fa fa-github" aria-hidden="true"></i></a>
 				<i class="fa fa-envelope" aria-hidden="true"></i>
 				<i class="fa fa-mobile" aria-hidden="true"></i>
 			</div>
 			<div class="landing_pagedown">
 				<i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
 			</div>
-		</section>
+		</div>
 
 		<div class="wrapper">
-			<section class="about">
-				<h2 class="section_title">About Me</h2>
+			<div class="about">
+				<h2 class="div_title">About Me</h2>
 				<div class="card">
-					<img class="images" src="https://78.media.tumblr.com/a75fe04e873ab7a31a31fb88a40fd04e/tumblr_oulw5xwZi41wy56f5o1_1280.jpg" alt="">
-					<p>I'm Seth Jones. I'm a Front-End Web Developer by day and a chef
+					<img class="aboutImage" src="https://78.media.tumblr.com/a75fe04e873ab7a31a31fb88a40fd04e/tumblr_oulw5xwZi41wy56f5o1_1280.jpg" alt="">
+					<p class="aboutMeDescription"> I'm Seth Jones. I'm a Front-End Web Developer by day and a chef
 						by night. If I'm not coding or cooking, I'm probably playing with my lovely
 						kitty or catching up on my endless backlog of ps2 games. I currently reside
 						in the beautiful city of Philadelphia (Go Eagles!). You might spot me riding
 						my bike around center city or sipping iced coffee in a cafe while tapping away at my keyboard.
 					</p>
 				</div>
-			</section>
+			</div>
 
 
-			<section class="skills">
-				<h2 class="section_title">Skills</h2>
+			<div class="skills">
+				<h2 class="div_title">Skills</h2>
 				<div class="card">
 					<div class="skills_icons">
-						<i class="devicon-javascript-plain"></i>
-						<i class="devicon-html5-plain"></i>
-						<i class="devicon-css3-plain"></i>
-						<i class="devicon-jquery-plain-wordmark"></i>
-						<i class="devicon-nodejs-plain"></i>
+						<i class="devicon-javascript-plain colored"></i>
+						<i class="devicon-html5-plain-wordmark colored"></i>
+						<i class="devicon-css3-plain-wordmark colored"></i>
+						<i class="devicon-sass-original colored"></i>
+						<i class="devicon-jquery-plain-wordmark colored"></i>
+						<i class="devicon-nodejs-plain colored"></i>
+						<i class="devicon-express-original colored"></i>
+						<i class="devicon-mongodb-plain-wordmark colored"></i>
+						<i class="devicon-webpack-plain colored"></i>
 						<i class="devicon-react-original"></i>
-						<i class="devicon-nodejs-plain"></i>
-						<i class="devicon-bootstrap-plain"></i>
-						<i class="devicon-github-plain"></i>
+						<i class="devicon-bootstrap-plain-wordmark colored"></i>
+						<i class="devicon-github-plain-wordmark colored"></i>
 					</div>
 				</div>
-			</section>
+			</div>
 
-			<h2 class="section_title">Projects</h2>
-			<section class="projects">
+			<h2 class="div_title">Projects</h2>
+			<div class="projects">
 				<div class="card">
 					<h2 class="project_title">Lorem Ipsum</h2>
 					<h3>Project Type</h3>
@@ -89,7 +94,7 @@
 					<a href="#" class="myButton">View</a>
 					<a href="#" class="myButton">Github</a>
 				</div>
-			</section>
+			</div>
 		</div>
 
 		<footer>
@@ -99,3 +104,4 @@
 				<i class="fa fa-mobile" aria-hidden="true"></i>
 			</div>
 		</footer>
+		</html>

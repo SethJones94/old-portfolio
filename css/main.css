@@ -19,36 +19,34 @@ body {
 
 h1 {
   font-size: 4em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 100;
-  color: #FEFDF8;
-  letter-spacing: .05em;
+  color: #fefdf8;
+  letter-spacing: 0.05em;
   margin-top: 1.75em;
 }
 
 h2 {
   color: #495867;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
   font-size: 5em;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   font-weight: 400;
 }
 
-
-
 p {
-  font-family: 'Lato', sans-serif;
-  margin-left: .9em;
-  margin-right: .9em;
+  font-family: "Lato", sans-serif;
+  margin-left: 0.9em;
+  margin-right: 0.9em;
 
-  margin-bottom: .9em;
+  margin-bottom: 0.9em;
   line-height: 1.5;
-  font-size: .9em;
-  letter-spacing: .05em;
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
   color: #495867;
   text-align: left;
-  padding-bottom: .9em;
+  padding-bottom: 0.9em;
   font-weight: 500;
 }
 
@@ -58,12 +56,13 @@ footer {
   text-align: center;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
-  color: #FE5F55;
+  color: #fe5f55;
   background-color: #495867;
 }
 
 /* landing section */
 .landing {
+  margin-top: 30%;
   text-align: center;
   width: 100vw;
   height: 100vh;
@@ -75,25 +74,25 @@ footer {
 }
 
 .landing_jobtitle {
-  font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: .05em;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.05em;
   font-weight: 400;
   font-size: 1.5em;
-  margin-top: .2em;
-  color: #BDD5EA;
+  margin-top: 0.2em;
+  color: #bdd5ea;
   text-align: center;
 }
 
-.landing_icons{
+.landing_icons {
   letter-spacing: 0.4em;
   font-size: 2.25em;
   text-align: center;
-  margin-top: .2em;
-  color: #FE5F55;
+  margin-top: 0.2em;
+  color: #fe5f55;
 }
 
 .landing_pagedown {
-  color: #FE5F55;
+  color: #fe5f55;
   font-size: 2.5em;
   margin-top: 1em;
   text-align: center;
@@ -112,18 +111,17 @@ footer {
   background-color: #ffffff;
   margin-top: 1.6em;
 
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   margin-left: 1em;
   margin-right: 1em;
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .section_title {
   margin-top: 1em;
   color: #495867;
   font-size: 2.5em;
-
 }
 
 .images {
@@ -131,58 +129,74 @@ footer {
   width: 90%;
   padding-top: 0.7em;
   padding-bottom: 0.5em;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.aboutImage {
+  height: 60%;
+  width: 90%;
+  padding-top: 0.7em;
+  padding-bottom: 0.5em;
   display: block;
   margin: 0 auto;
-  }
+}
 
 .myButton {
-  background-color:#FE5F55;
-  -moz-border-radius:4px;
-  -webkit-border-radius:4px;
-  border-radius:4px;
-  border:1px solid #FEFDF8;
-  display:inline-block;
-  cursor:pointer;
-  color:#FEFDF8;
+  background-color: #fe5f55;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #fefdf8;
+  display: inline-block;
+  cursor: pointer;
+  color: #fefdf8;
   font-weight: 700;
-  letter-spacing: .15em;
-  font-family: 'Lato', sans-serif;
-  font-size:.75em;
-  padding:2.5% 2.5%;
+  letter-spacing: 0.15em;
+  font-family: "Lato", sans-serif;
+  font-size: 0.75em;
+  padding: 2.5% 2.5%;
   margin-bottom: 0.5em;
-  text-decoration:none;
-  }
+  text-decoration: none;
+}
 
 .myButton:hover {
-  background-color:#FE5F55;
-  }
+  background-color: #fe5f55;
+}
 
 .myButton:active {
-  position:relative;
-  top:1px;
-  }
-
+  position: relative;
+  top: 1px;
+}
 
 /* about section */
-  .about {
+.about {
   margin-top: -0.5em;
-  }
+}
+
+.aboutMeDescription {
+  margin-left: 1.6em;
+  margin-right: 1.6em;
+  margin-bottom: 1.6em;
+  margin-top: 1em;
+  text-align: justify;
+}
 
 /* skills section */
 .skills_icons {
-  letter-spacing: .4em;
+  letter-spacing: 0.4em;
   margin-left: 0.4em;
   font-size: 3em;
   line-height: 2;
 
-  color: #FE5F55;
-  text-shadow: 1px 1px 1.5px rgba(0,0,0,0.2);
+  color: #fe5f55;
+  text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.2);
 }
 
 /* project section */
 .project_title {
   color: #495867;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-align: left;
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -193,12 +207,12 @@ footer {
 }
 
 .project_description {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin-top: 0.5em;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   margin-right: 0.5em;
   line-height: 1.5;
-  font-size: .9em;
+  font-size: 0.9em;
   color: #495867;
   text-align: left;
 
@@ -213,10 +227,9 @@ footer {
   margin-top: 0.5em;
   color: #495867;
   line-height: 1.5;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-align: left;
-  margin-left: .9em;
-
+  margin-left: 0.9em;
 
   font-size: 1em;
 
@@ -225,9 +238,6 @@ footer {
 
 /* media queries section */
 @media (max-width: 12450px) {
-
- }
-
-
+}
 
 /* ( ͡° ͜ʖ ͡°) "I once was lost, but now there's lenny" */
