@@ -1,3 +1,3 @@
-# SethJones94.github.io
-Portfolio
-# old-portfolio
+A portfolio made to showcase my projects and skills. 
+
+Built with love Github Pages, Jekyll,SCSS, CSS Grid, HTML5 and JS. 

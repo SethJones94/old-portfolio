@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-			<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-			<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-		</head>
-		<body>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
 
-			<div class="landing">
+  {% include head.html %}
 
-			{{ content }}
+  <body>
 
+    <main class="main" aria-label="Content">
+      {{ content }}
+    </main>
 
-			</div><!-- /.container -->
+  </body>
 
-		</body>
-	</html>
+</html>
